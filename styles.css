@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    background-color: #2D62FF;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Patua One', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 1000px; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgb(44, 0, 163);
+    background: linear-gradient(to right, white 50%, #ffff 50%);   
+}
+.lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+}
+img {
+    width: 105%;
+    
+}
+.flex {
+    display: flex;
+    color: rgb(90, 90, 90);;
+    font-size: 25px;
+    justify-content: bottom;
+    margin-top: -15px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    
+    
+}
+
+.lado-direito {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.cabeçalho {
+    display: flex;
+    flex-direction: column;
+    gap: 9px 5px;
+    width: 400px;
+    height: 5px;
+    
+}
+.cabeçalho > .titulo {
+    display: flex;
+    font-size: 32px;
+    color: rgb(90, 90, 90);
+    
+    
+}
+
+
+.botoes {
+    display: flex;
+    height: 5px;
+    gap: 5px 
+    
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.inputs > input{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(182, 182, 182);
+    border-width: 0px 0px 1px; 
+    width: 390px;
+    height: 32px;
+    padding: 5px;
+   
+    
+    
+}
+.inputs > input:hover {
+    border: 2px solid #2D62FF;
+}
+
+label {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 8px;
+    border-width: 0px 0px;
+}
+
+.inputs > input::placeholder {
+    padding-left: 10px;
+    border-width: 0px 0px 1px;
+    
+}
+
+a{
+    color: #2D62FF;
+}
+
+.register {                                               
+    background-color:  rgb(163, 163, 163);
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto';
+    width: 200px;
+    height: 40px;
+    box-shadow: 1px 1px 1px grey;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+ .register.hidden{
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.terms {
+   display: flex;
+   padding-left: 3px;
+   margin: 5px;
+ 
+}
+
+.terms > label {
+    padding-top: 2px;
+}
+.logo {
+    width: 30rem;
+    height: 2000px;
+}
